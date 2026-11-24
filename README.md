@@ -13,7 +13,7 @@ An [Uncrustify](https://github.com/uncrustify/uncrustify) (0.78+) configuration 
   * **C Functions & Control Flow**: Opening `{` on the **same line** (K&R / 1TBS) for C functions, conditionals (`if`/`else`), loops (`for`, `while`, `do`), and compound blocks.
   * **Objective-C Constructs**: Opening `{` on a **new line** for `@interface` ivars, `@implementation` ivars, and method definitions (`-` and `+`).
 * **Objective-C Spacing & Alignment**:
-  * Space after scope (`-` / `+`) and space after return type: `- (type) name;`.
+  * Space after scope (`-` / `+`), space after return type (`- (type) name;`), and space after colon before message arguments (`[object method: argument]`).
   * Multi-line method declarations and message calls aligned on colons (`:`).
   * Auto-detects `.h`, `.m`, and `.mm` as Objective-C.
 * **Pointers**: Pointer asterisk attached to variable name (`type *name`, `id *ptr`) with space before and no space after.

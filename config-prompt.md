@@ -291,7 +291,7 @@ Create a clean, consistent, professional coding style suitable for systems progr
    - Objective-C:
      - Space after scope indicator (`+` / `-`).
      - Space between return type and selector/method name (`- (type) name`).
-     - No space before or after colons in message sends (`[obj method:arg]`).
+     - Space after colon before arguments in message calls (`[obj method: arg]` via `sp_after_send_oc_colon = force`).
      - Space between receiver and selector (`[receiver message]`).
      - Space before protocol list (`@interface Foo : Bar <Proto>`) and category (`@interface Foo (Cat)`).
 
