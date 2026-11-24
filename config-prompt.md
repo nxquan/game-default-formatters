@@ -292,6 +292,7 @@ Create a clean, consistent, professional coding style suitable for systems progr
      - Space after scope indicator (`+` / `-`).
      - Space between return type and selector/method name (`- (type) name`).
      - Space after colon before arguments in message calls (`[obj method: arg]` via `sp_after_send_oc_colon = force`).
+     - No space around colons or types in method declarations and implementations (`- execDirect:(SQLHDBC)hdbc query:(const char *)query` via `sp_before_oc_colon = remove`, `sp_after_oc_colon = remove`, `sp_after_oc_type = remove`).
      - Space between receiver and selector (`[receiver message]`).
      - Space before protocol list (`@interface Foo : Bar <Proto>`) and category (`@interface Foo (Cat)`).
 
